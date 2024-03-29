@@ -1,0 +1,160 @@
+.home-container {
+    background-image: url("./images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 2rem;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    max-width: 30rem;
+    text-align: center;
+  }
+
+  
+.cover{
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  width: 330px;
+    height: 450px;
+  position: absolute ;
+  left: 15%;
+  top: 20%;
+  border-radius: 8px ;
+  box-shadow: 0px 0px 16px 7px; 
+  opacity: 1;
+
+
+}
+.subcover{
+  border-bottom: 1px solid none;
+  background: rgb(0, 0, 0);
+  width: 330px;
+  left: 15%;
+  top: 20%;
+  height: 450px;
+  opacity: 0.6;
+  border-radius: 8px;
+
+}
+.cover-image{
+  text-align: center;
+
+}
+img{
+  border-radius: 20px;
+  position: absolute;
+  left: 22%;
+  top: 10%;
+  margin: -10px -9px;
+  opacity: 0.7;
+}
+
+.text{
+  position: absolute;
+  left: 17%;
+  top: 55%;
+  margin: -1px -10px;
+
+}
+h1{
+  color: white;
+  font-family: kulim park, sans-serif;
+  line-height: 2px;
+  font-weight: normal;
+
+}
+
+h2{
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  opacity: 0.3;
+  
+  margin-top: -6px;
+}
+
+.line{
+  border-bottom: 2px solid hotpink;
+  position: absolute;
+  top: 95%;
+  left: 7%;
+  width: 250px;
+  box-shadow: 1px 0px 4px;
+  color: hotpink;
+}
+
+.fa-circle{
+  color: hotpink;
+  position: absolute;
+  top: 64%;
+  left: 25%;
+  margin-top: -6px;
+
+}
+
+.number{
+
+}
+
+h3{
+  position: absolute;
+  left: 7%;
+  top:75%;
+  font-size: 14px;
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+}
+h4{
+  position: absolute;
+  left: 81%;
+  top: 75%;
+  font-size: 14px;
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+}
+.player{
+ /* border-bottom: 1px solid white;
+  font-size: 60px;*/
+}
+
+
+.fa-pause-circle{
+  border-bottom: 1px solid white;
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 39%;
+  top: 130%;
+}
+.forward{
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 63%;
+  top: 110%;
+}
+
+.backward{
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 15%;
+  top: 110%;
+
+}
