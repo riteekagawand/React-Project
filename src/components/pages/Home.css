@@ -59,7 +59,7 @@ img{
   left: 22%;
   top: 10%;
   margin: -10px -9px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .text{
@@ -90,8 +90,7 @@ h2{
 .line{
   border-bottom: 2px solid hotpink;
   position: absolute;
-  top: 95%;
-  left: 7%;
+  top: 110%;
   width: 250px;
   box-shadow: 1px 0px 4px;
   color: hotpink;
@@ -105,9 +104,35 @@ h2{
   margin-top: -6px;
 
 }
+h5{
+  font-size: 50px;
+  color: white;
+  font-family: titillium web, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+font{
+    color: white;
+    opacity: 0.4;
+}
+.context{
+  position: absolute;
+  left: 38%;
+  top: 30%;
+}
 
-.number{
+.number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 110%;
+  
+}
 
+.number h3, .number h4 {
+  margin: 0; /* Remove default margin */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #c2bdbd; /* Adjust color as needed */
 }
 
 h3{
@@ -128,10 +153,26 @@ h4{
   font-family: kulim park, sans-serif;
   font-weight: normal;
 }
-.player{
- /* border-bottom: 1px solid white;
-  font-size: 60px;*/
+.player, .forward, .backward {
+  color: hotpink;
+  font-size: 34px;
+  position: relative;
+  top: -7px;
+  left: 31px;
+  display: inline-block; /* Display icons as inline-block to appear side by side */
 }
+
+.forward {
+  left: 71px; /* Adjust the left position to create space between the icons */
+}
+.backward{
+  left: -120px;
+}
+
+
+
+
+
 
 
 .fa-pause-circle{
@@ -142,19 +183,6 @@ h4{
   left: 39%;
   top: 130%;
 }
-.forward{
-  font-size: 60px;
-  position: absolute;
-  color: hotpink;
-  left: 63%;
-  top: 110%;
-}
 
-.backward{
-  font-size: 60px;
-  position: absolute;
-  color: hotpink;
-  left: 15%;
-  top: 110%;
 
-}
+
